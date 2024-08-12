@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #eff3ff;
+}
+
+.container {
+  width: 350px;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.canvas {
+  border: 1px solid black;
+  position: fixed;
+  padding: 30px 20px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.btn-container {
+  position: fixed;
+  bottom: 170px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  padding: 15px 60px;
+  font-size: 18px;
+  background-color: #101010;
+  color: #ffffff;
+  margin-top: 20px; /* Adjust the margin between buttons */
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+}
+
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.heading {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.result {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 80px;
+  text-align: center; /* Center the text within the result div */
+  position: fixed;
+  bottom: 100px; /* Position it above the buttons */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px;
+  background-color: #eff3ff; /* Optional: add background color */
+  border-radius: 8px; /* Optional: add rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+}
