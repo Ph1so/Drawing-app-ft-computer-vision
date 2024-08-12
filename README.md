@@ -4,7 +4,7 @@ Tools: `React` `Python` `Flask` `Tensorflow`
 
 Dataset: MNIST
 
-Feel free to try it for yourself!
+Feel free to try it for yourself. Also, the drawing feature does not work on touch screen devices yet, sorry!
 
 [https://drawing-app-ft-computer-vision.vercel.app/](https://drawing-app-ft-computer-vision.vercel.app/)
 
